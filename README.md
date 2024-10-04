@@ -1,4 +1,4 @@
 # PID App - Test Driven Development
 
 # PID App Badges
-![CICD Workflow status](https://github.com/TommyChangUMD/cpp-boilerplate-v2/actions/workflows/run-unit-test-and-upload-codecov.yml/badge.svg) [![codecov](https://codecov.io/gh/TommyChangUMD/cpp-boilerplate-v2/branch/main/graph/badge.svg)](https://codecov.io/gh/TommyChangUMD/cpp-boilerplate-v2) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+![CICD Workflow status](https://github.com/rishieraj/pid-controller-tdd/actions/workflows/test.yaml/badge.svg) [![codecov](https://codecov.io/gh/rishieraj/pid-controller-tdd/branch/main/graph/badge.svg)](https://codecov.io/gh/rishieraj/pid-controller-tdd) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
