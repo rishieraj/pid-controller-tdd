@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpidLib.a CMakeFiles/pidLib.dir/src.cpp.o
+/usr/bin/ranlib libpidLib.a

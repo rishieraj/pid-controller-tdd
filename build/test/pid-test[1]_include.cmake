@@ -1,0 +1,5 @@
+if(EXISTS "/home/rishie/Documents/Semester-3/ENPM 700/TDD/pid-controller-tdd/build/test/pid-test[1]_tests.cmake")
+  include("/home/rishie/Documents/Semester-3/ENPM 700/TDD/pid-controller-tdd/build/test/pid-test[1]_tests.cmake")
+else()
+  add_test(pid-test_NOT_BUILT pid-test_NOT_BUILT)
+endif()
