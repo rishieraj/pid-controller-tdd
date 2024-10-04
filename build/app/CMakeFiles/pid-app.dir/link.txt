@@ -1,1 +1,0 @@
-/usr/bin/c++ --static CMakeFiles/pid-app.dir/main.cpp.o -o pid-app  ../libs/pid_lib/libpidLib.a 
