@@ -1,9 +1,0 @@
-dummy_test.pass_test 1 0.0029492
-PID_Test.testing_for_min 0 0
-PID_Test.testing_for_max 0 0
-PID_Test.testing_for_zero 1 0.00349278
-PID_Test.for_test_value 0 0
----
-PID_Test.testing_for_min
-PID_Test.testing_for_max
-PID_Test.for_test_value
