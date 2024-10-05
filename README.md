@@ -36,3 +36,11 @@
 # open a web browser to browse the test coverage report
   open build/test_coverage/index.html
 ```
+
+## UML Class Diagram
+
+![Class Diagram](https://github.com/rishieraj/pid-controller-tdd/blob/7561a1454b045f27e641648c434a33155e314d2f/images/tdd_uml_class.png)
+
+## UML Activity Diagram
+
+![Activity Diagram](https://github.com/rishieraj/pid-controller-tdd/blob/7561a1454b045f27e641648c434a33155e314d2f/images/tdd_uml_activity.png)
