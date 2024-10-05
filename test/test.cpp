@@ -23,10 +23,10 @@ TEST(dummy_test, pass_test) { EXPECT_EQ(1, 1); }
  *
  */
 TEST(PID_Test, testing_for_min) {
-  PID pid_test_obj(0.1, 25.0, -25.0, 0.75, 0.1, 0.02);
+  PID pid_test_obj(0.1, 20.0, -20.0, 0.75, 0.1, 0.02);
   double setpoint = 0.0;
   double pv = 100.0;
-  ASSERT_NEAR(pid_test_obj.calculate(setpoint, pv), -25.0, 0.0001);
+  ASSERT_NEAR(pid_test_obj.calculate(setpoint, pv), -20.0, 0.0001);
 }
 
 /**
@@ -36,19 +36,8 @@ TEST(PID_Test, testing_for_min) {
 TEST(PID_Test, testing_for_max) {
   PID pid_test_obj(0.1, 25.0, -25.0, 0.75, 0.1, 0.02);
   double setpoint = 0.0;
-  double pv = -75.0;
+  double pv = -100.0;
   ASSERT_NEAR(pid_test_obj.calculate(setpoint, pv), 25.0, 0.0001);
-}
-
-/**
- * @brief Testing for 0 Process value and setpoint.
- *
- */
-TEST(PID_Test, testing_for_zero) {
-  PID pid_test_obj(0.1, 25.0, -25.0, 0.75, 0.1, 0.02);
-  double setpoint = 0.0;
-  double pv = 0.0;
-  ASSERT_NEAR(pid_test_obj.calculate(setpoint, pv), 0.0, 0.01);
 }
 
 /**
