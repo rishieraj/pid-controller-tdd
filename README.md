@@ -1,15 +1,14 @@
 # PID App - Test Driven Development
 
 ![CICD Workflow status](https://github.com/rishieraj/pid-controller-tdd/actions/workflows/test.yml/badge.svg) [![codecov](https://codecov.io/gh/rishieraj/pid-controller-tdd/branch/main/graph/badge.svg)](https://codecov.io/gh/rishieraj/pid-controller-tdd) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-| Part 1 |
-| Team 1 |
+
+| Part 1 - Team 1 |
 |---|
 | **Rishie Raj - 120425554** (Driver & Navigator)|
-| Part 2 |
-| Team 2 |
+| Part2 - Team 2 |
 |---|
 | **Abhey Sharma - 120110306** (Driver)|
-| **Navdeep Singh - ** (Navigator)|
+| **Navdeep Singh - 120098024** (Navigator)|
 
 ## Setup via command line
 ```bash
