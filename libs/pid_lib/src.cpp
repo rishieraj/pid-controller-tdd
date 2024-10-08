@@ -23,20 +23,18 @@ PID::PID(double dt, double max, double min, double Kp, double Kd, double Ki)
 
 // Defining the stub implementation of calculate method
 double PID::calculate(double setpoint, double pv) {
-
-  
   // calculate error
   double error = setpoint - pv;
 
   // Proportional error
-  double prop_error  = _Kp * error;
+  double prop_error = _Kp * error;
 
   // Differential error
-  double diff_error = _Kd * ((error - _pre_error)/_dt);
+  double diff_error = _Kd * ((error - _pre_error) / _dt);
 
   // integeral error
   // total error uptill now
-  _integral = _integral + (error*_dt);
+  _integral = _integral + (error * _dt);
   double int_error = _Ki * (_integral);
 
   double output = prop_error + diff_error + int_error;
@@ -45,11 +43,10 @@ double PID::calculate(double setpoint, double pv) {
   _pre_error = error;
 
   // Restrict to max/min limits
-    if (output > _max)
-        output = _max;
-    else if (output < _min)
-        output = _min;
+  if (output > _max)
+    output = _max;
+  else if (output < _min)
+    output = _min;
 
-  
   return output;
 }
