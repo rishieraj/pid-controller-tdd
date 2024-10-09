@@ -4,9 +4,9 @@
  * @brief Header file for PID Controller
  * @version 0.1
  * @date 2024-10-03
- * 
+ *
  * @copyright Copyright (c) 2024
- * 
+ *
  */
 #pragma once
 
@@ -18,21 +18,22 @@ class PID {
  public:
   /**
    * @brief Construct a new PID object
-   * 
-   * @param dt 
-   * @param max 
-   * @param min 
-   * @param Kp 
-   * @param Kd 
-   * @param Ki 
+   *
+   * @param dt
+   * @param max
+   * @param min
+   * @param Kp
+   * @param Kd
+   * @param Ki
    */
   PID(double dt, double max, double min, double Kp, double Kd, double Ki);
   /**
-   * @brief method to return the manipulated variable given a setpoint and current process value
-   * 
-   * @param setpoint 
-   * @param pv 
-   * @return double 
+   * @brief method to return the manipulated variable given a setpoint and
+   * current process value
+   *
+   * @param setpoint
+   * @param pv
+   * @return double
    */
   double calculate(double setpoint, double pv);
 
